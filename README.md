@@ -12,7 +12,7 @@
 
 2. **Configure the Nanocluster Composition:**
      ```
-   - For simulating a ternary nanocluster of  6 silver (Ag), 5 palladium (Pd) and 4 copper (Cu) atoms:
+     For simulating a ternary nanocluster of  6 silver (Ag), 5 palladium (Pd) and 4 copper (Cu) atoms:
      eleNames = ['Ag', 'Pd','Cu']
      eleNums = [6, 5, 4]
      ```

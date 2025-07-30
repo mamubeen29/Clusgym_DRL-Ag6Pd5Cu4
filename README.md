@@ -1,5 +1,6 @@
 
 ### DRL Framework for Nanocluster Global Minimum Search 
+### Deep reinforcement learning unveils ternary nanocluster configurations: A case study on Ag6Pd5Cu4
 https://pubs.aip.org/aip/jap/article/137/22/224301/3349243/Deep-reinforcement-learning-unveils-ternary
 ### How to Run the Code
 

@@ -28,5 +28,6 @@ https://pubs.aip.org/aip/jap/article/137/22/224301/3349243/Deep-reinforcement-le
      ```bash
      python gym_trpo_single.py   
      ```
-
+## Acknowledgements:
+We would like to thank [Rajesh K. Raju](https://github.com/rajeshkochi444/clusgm_drl) for his DRL framework.
 

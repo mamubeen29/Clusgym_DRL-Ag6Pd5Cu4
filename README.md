@@ -9,15 +9,21 @@ https://pubs.aip.org/aip/jap/article/137/22/224301/3349243/Deep-reinforcement-le
      ```bash
      conda env create -f env_clusgym.yml
      ```
-
-2. **Configure the Nanocluster Composition:**
+2. **Activate the Environment:**
+   - Activate the `clusgym` environment by using the following command:
+     ```bash
+     conda activate clusgym
      ```
+3. **Configure the Nanocluster Composition:**
+   - Edit `gym_trpo_single.py` to select the nanocluster composition.
+     
      For simulating a ternary nanocluster of  6 silver (Ag), 5 palladium (Pd) and 4 copper (Cu) atoms:
+     ```bash
      eleNames = ['Ag', 'Pd','Cu']
      eleNums = [6, 5, 4]
      ```
 
-3. **Run the Simulation:**
+4. **Run the Simulation:**
    - Execute the script using Python.
      ```bash
      python gym_trpo_single.py   

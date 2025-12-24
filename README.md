@@ -1,5 +1,5 @@
 # DRL Framework for Nanocluster Global Minimum Search
-Rajesh K. Raju developed DRL framework for exploring potetial energy surface Via Deep Reinforcement Learning and we utilized this framework for AgPdCu ternary nanocluster
+Rajesh K. Raju have developed DRL framework for exploring potetial energy surface via Deep Reinforcement Learning and we have utilized this framework for AgPdCu ternary nanocluster and predicted global minimum configuration. 
 ## Deep reinforcement learning unveils ternary nanocluster configurations: A case study on Ag6Pd5Cu4
 https://pubs.aip.org/aip/jap/article/137/22/224301/3349243/Deep-reinforcement-learning-unveils-ternary
 ### Installation and usage

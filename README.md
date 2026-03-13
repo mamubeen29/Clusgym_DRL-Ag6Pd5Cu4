@@ -29,5 +29,5 @@ https://pubs.aip.org/aip/jap/article/137/22/224301/3349243/Deep-reinforcement-le
      python gym_trpo_single.py   
      ```
 ## Acknowledgements:
-The code is adapted from clusgym_drl. We thank the authors for making the code available on github.We would like to thank [Rajesh K. Raju](https://github.com/rajeshkochi444/clusgm_drl) for his DRL framework.
+The code is adapted from [clusgym_drl](https://github.com/rajeshkochi444/clusgm_drl). We thank the authors for making the code available on github. We would like to thank [Rajesh K. Raju](https://github.com/rajeshkochi444/clusgm_drl) for his DRL framework.
 

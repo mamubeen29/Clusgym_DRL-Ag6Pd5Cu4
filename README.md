@@ -1,6 +1,6 @@
 # DRL Framework for Nanocluster Global Minimum Search
-This repository contains the implementation of the Deep reinforcement learning (DRL) agent, employed for the identification of Ag6Pd5Cu4 nanocluster using Deep Reinforcement Learning (DRL). The aims is to efficiently explore GM nanocluster configuration. This is an adapted version of the DRL framework from clusgym_drl J. Phys. Chem. A 2024, 128, 42, 9122–9134. We thank the authors for making the code available on github. However, our framework has been adapted to tackle the additional challenges. We modified the code to work with ternary nanocluster. 
-## Deep reinforcement learning unveils ternary nanocluster configurations: A case study on Ag6Pd5Cu4
+This repository contains the implementation of the Deep reinforcement learning (DRL) agent, employed for the identification of Ag6Pd5Cu4 nanocluster using Deep Reinforcement Learning (DRL). The aims is to efficiently explore GM nanocluster configuration. This is an adapted version of the DRL framework from [clusgym_drl](https://github.com/rajeshkochi444/clusgm_drl) J. Phys. Chem. A 2024, 128, 42, 9122–9134. We thank the authors for making the code available on github. However, our framework has been adapted to tackle the additional challenges. We modified the code to work with ternary nanocluster. 
+
 https://pubs.aip.org/aip/jap/article/137/22/224301/3349243/Deep-reinforcement-learning-unveils-ternary
 ### Installation and usage
 

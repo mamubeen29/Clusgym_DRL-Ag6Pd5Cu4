@@ -33,8 +33,8 @@ Module.queryable_tensors   = {}   # dict – item assignment used
 # ---------------------------------------------------------------------------
 timesteps = 200
 
-eleNames  = ['Ag','Cu']
-eleNums   = [1,12]
+eleNames  = ['Ag','Pd','Cu']
+eleNums   = [6,5,4]
 clus_seed = None
 save_dir  = 'result_' + ''.join(f"{name}{num}" for name, num in zip(eleNames, eleNums)) + '/'
 

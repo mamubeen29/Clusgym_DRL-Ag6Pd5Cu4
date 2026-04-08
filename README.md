@@ -30,7 +30,7 @@ The framework models cluster optimization as a sequential decision-making proces
      ```
    - Execute the script using Python for PPO.
      ```bash
-     python gym_trpo_single.py   
+     python gym_ppo_single.py   
      ```
 ## Acknowledgements:
 The code is adapted from [clusgym_drl](https://github.com/rajeshkochi444/clusgm_drl). We thank the authors for making the code available on github. We would like to thank [Rajesh K. Raju](https://github.com/rajeshkochi444/clusgm_drl) for his DRL framework.

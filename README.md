@@ -1,5 +1,5 @@
-# DRL Framework for Nanocluster Global Minimum Search
-This repository contains the implementation of the Deep reinforcement learning (DRL) agent, employed for the identification of Ag6Pd5Cu4 nanocluster using Deep Reinforcement Learning (DRL). The aims is to efficiently explore GM nanocluster configuration. This is an adapted version of the DRL framework from [clusgym_drl](https://github.com/rajeshkochi444/clusgm_drl) J. Phys. Chem. A 2024, 128, 42, 9122–9134. We thank the authors for making the code available on github. However, our framework has been adapted to tackle the additional challenges. We modified the code to work with ternary nanocluster. 
+## Clusgm-DRL: A Proximal Policy Optimization (PPO) framework for global minimum (GM) search on nanocluster potential energy surfaces (PES)
+The framework models cluster optimization as a sequential decision-making process. An agent iteratively perturbs atomic coordinates (state St), receives the resulting energy (reward Rt), and updates its policy to favor moves that lower potential energy. Initially developed with Trust Region Policy Optimization (TRPO) in [clusgym_drl](https://github.com/rajeshkochi444/clusgm_drl) J. Phys. Chem. A 2024, 128, 42, 9122–9134. We thank the authors for making the code available on github. The framework has been upgraded to PPO to overcome TRPO’s computational bottlenecks and improve sample efficiency. The PPO update employs a clipped surrogate objective to constrain policy updates, enabling stable training on high-dimensional PES landscapes across diverse cluster types. 
 
 ### Installation and usage
 
@@ -14,7 +14,8 @@ This repository contains the implementation of the Deep reinforcement learning (
      conda activate clusgym
      ```
 3. **Configure the Nanocluster Composition:**
-   - Edit `gym_trpo_single.py` to select the nanocluster composition.
+   - Edit `gym_trpo_single.py` for TRPO to select the nanocluster composition.
+   - Edit `gym_ppo_single.py` for PPO to select the nanocluster composition.
      
      For simulating a ternary nanocluster of  6 silver (Ag), 5 palladium (Pd) and 4 copper (Cu) atoms:
      ```bash
@@ -23,7 +24,11 @@ This repository contains the implementation of the Deep reinforcement learning (
      ```
 
 4. **Run the Simulation:**
-   - Execute the script using Python.
+   - Execute the script using Python for TRPO.
+     ```bash
+     python gym_trpo_single.py   
+     ```
+   - Execute the script using Python for PPO.
      ```bash
      python gym_trpo_single.py   
      ```
